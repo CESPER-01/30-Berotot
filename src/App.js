@@ -6,7 +6,7 @@ import Home from './Pages/Home/Home';
 import Navbar from './Component/Navbar/Navbar';
 import Healt from './Pages/Healt/Healt';
 import Barcallories from './Pages/Barcallories/Barcallories';
-import Exsercise from './Component/Exsercise/Exsercise';
+import Exsercise from './Pages/Exsercise/Exsercise';
 import Achievement from './Component/Achievement/Achievement';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Route path='/Barcallories' element={<Barcallories />}/>
         <Route path='/Exsercise' element={<Exsercise />}/>
         <Route path='/Achievement' element={<Achievement />}/>
+      
       </Routes>
 
     </div>
