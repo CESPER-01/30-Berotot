@@ -1,10 +1,10 @@
 .container{
-    height: 500px;
-    width: 1270px;
+    height: 350px;
+   
     background-color:antiquewhite ;
 }
 .buttonbutton{
-    margin-top: 120px;
+    margin-top: 250px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -13,24 +13,33 @@
   width: 200px;
   height: 100px;
   border-radius: 25px;
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
   text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
-.buttonkiri > h3{
+.buttonkiri > h3,p{
   margin-left: 20px;
 }
+
 
 
 .buttontengah{
    width: 200px;
   height: 100px;
   border-radius: 25px;
-  background-color: azure;
-  text-align: center;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttontengah > h3,p{
+  margin-left: 20px;
+}
+
+.buttontengah > h3{
+ margin-top: 15px;
 }
 
 
@@ -38,11 +47,25 @@
    width: 200px;
   height: 100px;
   border-radius: 25px;
-  background-color: azure;
-  text-align: center;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.buttonkanan > h3,p{
+  margin-left: 20px;
+}
+
+.buttonkanan > h3{
+  margin-top: 15px;
+}
+
 .textmain{
-  margin: 60px;
+  margin-left: 70px;
+  
+}
+
+.textmain > h1{
+  margin-left: 20px;
+  
 }

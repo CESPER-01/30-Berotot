@@ -1,15 +1,10 @@
-.textkiri{
-    display: flex;
- 
-   
-    
-}
+
 
 .textkanan{
-    align-items: center;
-    text-align: center;
+      display: flex;
+    justify-content: center;
+    
     display: flex;
-    margin-right: 20px;
 }
 
 
@@ -22,13 +17,16 @@
 .Link1{
      text-decoration: none;
     color: inherit;
+  
     margin-left: 30px;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    width: 1270px;
+ 
     background-color: antiquewhite;
+    padding: 32px;
+    align-items: center;
     
 }

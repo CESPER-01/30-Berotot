@@ -4,10 +4,10 @@ import './App.css';
 import Home from './Pages/Home/Home';
 
 import Navbar from './Component/Navbar/Navbar';
-import Healt from './Pages/Healt/Healt';
 import Barcallories from './Pages/Barcallories/Barcallories';
 import Exsercise from './Pages/Exsercise/Exsercise';
 import Achievement from './Component/Achievement/Achievement';
+import Healt from './Pages/Healt/Healt';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/Home' element={<Home />}/>
-        <Route path='/Healt' element={<Healt />}/>
+        <Route path='/Health' element={<Healt />}/>
         <Route path='/Barcallories' element={<Barcallories />}/>
         <Route path='/Exsercise' element={<Exsercise />}/>
         <Route path='/Achievement' element={<Achievement />}/>
