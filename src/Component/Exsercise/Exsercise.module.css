@@ -1,0 +1,54 @@
+.container{
+    height: 300px;
+    width: 1270px;
+    background-color:antiquewhite ;
+}
+.buttonbutton{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonkiri{
+  width: 250px;
+  height: 350px;
+  border-radius: 25px;
+  background-color: azure;
+  text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.buttonkiri > h3{
+  margin-left: 20px;
+}
+
+
+.buttontengah{
+   width: 250px;
+  height: 350px;
+  border-radius: 25px;
+  background-color: azure;
+  text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.buttonkanan{
+   width: 250px;
+  height: 350px;
+  border-radius: 25px;
+  background-color: azure;
+  text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.textmain{
+   
+    height: 150px;
+    width: 1270px;
+    background-color:rgb(49, 49, 49) ;
+}
+
