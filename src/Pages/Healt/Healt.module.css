@@ -1,15 +1,13 @@
-.container{
-    height: 350px;
-   
-    background-color:antiquewhite ;
-}
-.buttonbutton{
-    margin-top: 250px;
+
+.buttons{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px
 }
 
-.buttonkiri{
+.button{
+  padding: 16px;
+  margin-top: 50px;
   width: 200px;
   height: 100px;
   border-radius: 25px;
@@ -19,53 +17,21 @@
     
 }
 
-.buttonkiri > h3,p{
-  margin-left: 20px;
-}
-
-
-
-.buttontengah{
-   width: 200px;
-  height: 100px;
-  border-radius: 25px;
-  background-color: rgb(255, 255, 255);
-  text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.buttontengah > h3,p{
-  margin-left: 20px;
-}
-
-.buttontengah > h3{
- margin-top: 15px;
-}
-
-
-.buttonkanan{
-   width: 200px;
-  height: 100px;
-  border-radius: 25px;
-  background-color: rgb(255, 255, 255);
-  text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.buttonkanan > h3,p{
-  margin-left: 20px;
-}
-
-.buttonkanan > h3{
-  margin-top: 15px;
-}
 
 .textmain{
-  margin-left: 70px;
+  padding: 16px;
+  height: 230px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+   box-shadow: 0px 10px 30px antiquewhite, 0px 10px 30px antiquewhite, 0px 15px 30px antiquewhite;
+}
+
+.text{
+  padding: 80px;
   
 }
 
-.textmain > h1{
-  margin-left: 20px;
-  
+.text > h1{
+  font-size: 32pt;
 }
