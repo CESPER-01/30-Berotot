@@ -21,11 +21,11 @@ function Navbar(params) {
             <div className={style.textkanan}>
 
 
-                <Link to="/Healt" className={style.Link}>
-                    <h3>Healt</h3>
+                <Link to="/Health" className={style.Link}>
+                    <h4>Health</h4>
                 </Link>
                 <Link to="/Barcallories" className={style.Link1}>
-                    <h3>Barcallories</h3>
+                    <h4>Barcallories</h4>
                 </Link>
 
 

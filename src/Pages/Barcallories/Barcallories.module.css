@@ -1,0 +1,41 @@
+.kotakkiri{
+     width: 200px;
+  height: 250px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kotakkanan{
+     width: 200px;
+  height: 250px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kotakpersen{
+   
+   margin-left: 150px;
+    flex-direction: column;
+   
+    
+}
+
+.kotak1{
+      width: 1000px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.kotak{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}

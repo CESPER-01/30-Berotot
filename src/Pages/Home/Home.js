@@ -12,7 +12,7 @@ function Home() {
     )
 
     function goToFood() {
-        navigate("/Healt")
+        navigate("/Health")
     }
 }
 
