@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import style from './Healt.module.css'
-function Health(params) {
+function Healt() {
     return (
         <div className={style.container}>
 
@@ -41,4 +41,4 @@ function Health(params) {
     )
 }
 
-export default Health;
+export default Healt;
