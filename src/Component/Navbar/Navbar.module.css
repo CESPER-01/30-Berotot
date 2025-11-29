@@ -1,32 +1,30 @@
-
-
-.textkanan{
-      display: flex;
+.textkanan {
+    display: flex;
     justify-content: center;
-    
+
     display: flex;
 }
 
 
 
-.Link{
-     text-decoration: none;
+.Link {
+    text-decoration: none;
     color: inherit;
 }
 
-.Link1{
-     text-decoration: none;
+.Link1 {
+    text-decoration: none;
     color: inherit;
-  
+
     margin-left: 30px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
- 
+   
     background-color: antiquewhite;
     padding: 32px;
     align-items: center;
-    
+
 }

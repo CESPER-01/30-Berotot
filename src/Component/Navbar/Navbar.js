@@ -22,10 +22,10 @@ function Navbar(params) {
 
 
                 <Link to="/Health" className={style.Link}>
-                    <h4>Health</h4>
+                    <h3>Health</h3>
                 </Link>
                 <Link to="/Barcallories" className={style.Link1}>
-                    <h4>Barcallories</h4>
+                    <h3>Barcallories</h3>
                 </Link>
                  <Link to="/Exsercise" className={style.Link1}>
                     <h3>Exsercise</h3>
